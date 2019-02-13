@@ -4,6 +4,64 @@
   color: black;
 }
 div{
-  background-color: black;
-  float: left;
+  position: relative;
+  background-color: grey;
+  font-family: sans-serif;
 }
+
+h4{
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+#chicken{
+  width: 65px;
+  box-sizing: border-box;
+  background-color: pink;
+}
+
+#beef{
+  width: 35px;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+#sushi{
+  width: 45px;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+
+@media (min-width: 992px){
+  .col-lg-4{
+    float:left;
+    border : 3px solid black;
+    margin: auto;
+  }
+  .col-lg-4{
+    width: 33.32%;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6{
+    float:left;
+    border : 3px solid black;
+    margin: auto;
+  }
+  .col-md-6{
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px){
+  .col-sm-12{
+    border : 3px solid black;
+    margin: auto;
+  }
+  .col-md-12{
+    width: 100%;
+  }
